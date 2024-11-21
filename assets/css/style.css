@@ -762,6 +762,7 @@ ol {
 /* # Project */
 .projects-area {
     padding-top: 65px;
+    text-align: center;
 }
 .projects-area .container > .section-heading {
     display: none;
