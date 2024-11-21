@@ -20,17 +20,6 @@
 */
 
 
-
-:root {
-    --primary_color: #5B78F6;
-    --dark: #323232;
-}
-*,*::before,*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -44,7 +33,7 @@ body {
 
 
 /* Cur sor Design */
-.circle {
+/* .circle {
     height: 24px;
     width: 24px;
     border-radius: 24px;
@@ -53,8 +42,8 @@ body {
     top: 0;
     left: 0;
     pointer-events: none;
-    z-index: 99999999; /* so that it stays on top of all other elements */
-  } 
+    z-index: 99999999;  so that it stays on top of all other elements 
+  }  */
 
   
 
@@ -197,14 +186,6 @@ ol {
     z-index: 2;
     position: relative;
 }
-
-/*.shadow-box span {*/
-/*    background: linear-gradient(155deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(322deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(33deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(315deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(41deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(90deg, rgb(192, 100, 79),rgb(56, 158, 172));*/
-/*    background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;; -webkit-background-clip: text; -webkit-text-fill-color: transparent;*/
-/*}*/
-
-
-
 
 .client-item.client-item-bg1:hover {
     background: linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(88, 1, 25) 81.7%);
@@ -368,20 +349,9 @@ ol {
 .inner-profile-icons a[href*="instagram"]:hover {
     background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 }
-
-/*.inner-profile-icons a[href*="instagram"]:hover i {*/
-/*    color: white;*/
-/*}*/
-
 .inner-profile-icons a[href*="github"]:hover {
     background: linear-gradient(to right, #333, #6e5494);
 }
-
-/*.inner-profile-icons a[href*="github"]:hover i {*/
-/*    color: white;*/
-/*}*/
-
-
 
 .info-box .inner-profile-icons a i {
     font-size: 32px;
@@ -444,8 +414,6 @@ ol {
     background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
 
 }
-
-
 .info-box.about-contact-box h1 {
     font-size: 44px;
     line-height: 52px;
